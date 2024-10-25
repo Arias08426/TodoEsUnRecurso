@@ -1,0 +1,63 @@
+{
+  "springBoot": {
+    "descripcion": "Spring Boot es un marco de trabajo basado en Spring, que permite el desarrollo rápido de aplicaciones Java con mínima configuración.",
+    "principalesCaracteristicas": [
+      {
+        "nombre": "Autoconfiguración",
+        "descripcion": "Spring Boot configura automáticamente las bibliotecas necesarias con base en el contenido de tu classpath."
+      },
+      {
+        "nombre": "Starters",
+        "descripcion": "Ofrece 'starters', conjuntos de dependencias preconfiguradas para diferentes casos de uso, como aplicaciones web, seguridad, o acceso a bases de datos."
+      },
+      {
+        "nombre": "Servidor Embebido",
+        "descripcion": "Incluye servidores embebidos como Tomcat y Jetty, permitiendo ejecutar aplicaciones sin necesidad de un servidor externo."
+      },
+      {
+        "nombre": "Actuator",
+        "descripcion": "Proporciona métricas y herramientas de monitorización para supervisar el rendimiento y el estado de la aplicación."
+      },
+      {
+        "nombre": "Integración con Microservicios",
+        "descripcion": "Diseñado para soportar arquitecturas de microservicios y se integra bien con Spring Cloud para el manejo de servicios distribuidos."
+      }
+    ],
+    "beneficios": [
+      {
+        "nombre": "Desarrollo Rápido",
+        "descripcion": "Permite configurar rápidamente aplicaciones listas para producción, lo que reduce considerablemente el tiempo de desarrollo."
+      },
+      {
+        "nombre": "Menos Configuración",
+        "descripcion": "Spring Boot minimiza la configuración manual y permite a los desarrolladores concentrarse en la lógica del negocio."
+      },
+      {
+        "nombre": "Ecosistema Sólido",
+        "descripcion": "Aprovecha el ecosistema de Spring, lo que facilita el uso de tecnologías como Spring Security, Spring Data, y más."
+      },
+      {
+        "nombre": "Flexibilidad",
+        "descripcion": "Aunque está diseñado para simplificar las configuraciones, es altamente personalizable si es necesario."
+      },
+      {
+        "nombre": "Gran Comunidad",
+        "descripcion": "Cuenta con una extensa comunidad de desarrolladores y una gran cantidad de recursos y documentación para resolver problemas."
+      }
+    ],
+    "ejemploCodigo": {
+      "descripcion": "Un ejemplo sencillo de un controlador en Spring Boot.",
+      "codigo": "package com.example.demo.controller;\n\nimport org.springframework.web.bind.annotation.GetMapping;\nimport org.springframework.web.bind.annotation.RestController;\n\n@RestController\npublic class HolaMundoController {\n    @GetMapping(\"/hola\")\n    public String holaMundo() {\n        return \"Hola, Mundo!\";\n    }\n}"
+    },
+    "enlacesUtiles": [
+      {
+        "nombre": "Documentación oficial",
+        "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/"
+      },
+      {
+        "nombre": "Guía de inicio rápido",
+        "url": "https://spring.io/guides/gs/spring-boot/"
+      }
+    ]
+  }
+}

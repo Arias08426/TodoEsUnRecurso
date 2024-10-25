@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+    <titulo>Introducción a Spring Boot</titulo>
+    <descripcion>Este curso cubre los fundamentos de Spring Boot, incluyendo la configuración, desarrollo y despliegue de aplicaciones.</descripcion>
+    <modulos>
+        <modulo>
+            <nombre>Configuración Inicial</nombre>
+            <duracion>2 horas</duracion>
+        </modulo>
+        <modulo>
+            <nombre>Desarrollo de APIs REST</nombre>
+            <duracion>3 horas</duracion>
+        </modulo>
+        <modulo>
+            <nombre>Despliegue de Aplicaciones</nombre>
+            <duracion>1.5 horas</duracion>
+        </modulo>
+    </modulos>
+</curso>
